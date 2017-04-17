@@ -1,0 +1,44 @@
+.o-banner{
+	width: 100%;
+	height: 100vh;
+  position: relative;
+  z-index: 250;
+  
+
+
+	&__bg{
+  	position: absolute;
+    /*width: 105%;
+    margin: -5%;
+    height: 110%;*/
+    background-position: center top;
+    background-repeat: no-repeat;
+    transform: translate3d(0, 0, 0);
+    /*background: url('/assets/images/bg-tiny.jpg') no-repeat 0 0;*/
+    background-size: cover;
+    /*opacity: 0;*/
+	}
+
+
+
+  &__front{
+    text-align: center;
+    z-index: 400;
+    position: absolute;
+    width: 100%;    
+    top: 50%;
+    transform: translateY(-20%);
+    height: 100%;
+
+  }
+
+  
+}
+
+
+.dumbo{
+  opacity: 1;
+  transition: opacity 0.25s ease-in;
+  /*border-radius: 50%;*/
+}
+
